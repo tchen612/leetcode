@@ -3,8 +3,8 @@ class ListNode:
         self.val = val
         self.next = next
 
-# Space Complexity = O(max(m,n))
 # Time Complexity = O(max(m,n))
+# Space Complexity = O(max(m,n))
 def addTwoNumbers(list1, list2):
     dummy = ListNode()
     current = dummy
