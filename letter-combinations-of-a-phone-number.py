@@ -13,7 +13,7 @@ def letterCombinations(digits):
     }
     all_combinations = [''] if digits else []
     for digit in digits:
-        current_combinations = list()
+        current_combinations = []
         for letter in mappings[digit]:
             for combination in all_combinations:
                 current_combinations.append(combination + letter)
