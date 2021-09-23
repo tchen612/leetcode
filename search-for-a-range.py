@@ -1,5 +1,5 @@
 # Time Complexity = O(log(n))
-# Space Complexity = O(1))
+# Space Complexity = O(1)
 def searchRange(nums: List[int], target: int) -> List[int]:
     def search(t: int) -> int:
         low, high = 0, len(nums)
